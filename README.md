@@ -1,16 +1,43 @@
-### Hi there 👋
+```c++
+#include <Windows.h>
+#include <string>
 
-<!--
-**browlete/browlete** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+int main()
+{
+	std::cout << "\n\n" << R"(
+	 ,_     _
+	 |\\_,-~/
+	/ _  _ |    ,--.
+	(  @  @ )   / ,-'          1. Name
+	 \  _T_/-._( (
+	 /         `. \            2. Specialties
+	|         _  \ |
+	\ \ ,  /      |            3. Contact
+	 || |-_\__   /
+	((_/`(____,-'
+	)" << '\n';
 
-Here are some ideas to get you started:
+	std::cout << ("\n	?: ");
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    int option;
+    	case 1:
+		std::cout << ("    browlete    ");
+		std::cin >> username;
+		break;
+    case 2:
+		std::cout << ("    none yet :(    ");
+		std::cin >> Specialties;
+		break;
+	case 3:
+		std::cout << ("    browlete#1126    ");
+		std::cin >> Discord;
+		std::cout << ("\n    steamcommunity.com/id/browlete    ");
+		std::cin >> steam;
+		break;
+	default:
+		std::cout << ("\n\n Invalid Selection");
+		Sleep(3000);
+		exit(0);
+	}
+}
+```
