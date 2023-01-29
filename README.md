@@ -24,7 +24,7 @@ int main()
 		std::cout << ("    browlete    ");
 		std::cin >> username;
 		break;
-    case 2:
+        case 2:
 		std::cout << ("    none yet :(    ");
 		std::cin >> Specialties;
 		break;
